@@ -4,7 +4,7 @@ get_all_appointments_query = 'SELECT * FROM scheduled_appointments WHERE is_dele
 get_all_customers_query = 'SELECT * FROM v_customers_data'
 
 
-# רשימת הטיפולים - תשמש אותנו בתוך התפריט הנפתח ב-GUI
+# רשימת שירותי טיפול - תשמש אותנו בתוך התפריט הנפתח בממשק המשתמש
 services = [
     "טיפול פנים",
     "הסרת שיער בלייזר",
