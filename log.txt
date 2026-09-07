@@ -1,0 +1,147 @@
+[2026-09-06 09:11:36] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%פאר טסי%',)
+[2026-09-06 09:24:02] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%פאר טסי%',)
+[2026-09-06 09:24:05] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%פאר%',)
+[2026-09-06 09:28:37] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%אייל%',)
+[2026-09-06 09:39:03] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%אייל גול%',)
+[2026-09-06 09:44:13] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%אייל גולן%',)
+[2026-09-06 10:25:43] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%פאר טסי%',)
+[2026-09-06 10:26:28] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0555678901',)
+[2026-09-06 10:28:00] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0555678901',)
+[2026-09-06 11:04:36] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%אייל גולן%',)
+[2026-09-06 11:05:41] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0521234567',)
+[2026-09-06 12:06:10] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%חיים משה%',)
+[2026-09-06 12:07:34] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0547654321',)
+[2026-09-06 12:08:12] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0547654321',)
+[2026-09-06 12:50:58] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%חיים משה%',)
+[2026-09-06 12:58:16] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%חיים משה%',)
+[2026-09-06 13:23:00] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%אייל גולן%',)
+[2026-09-06 13:51:20] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%רמי%',)
+[2026-09-06 13:53:15] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%רמי%',)
+[2026-09-06 14:25:21] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%רמי%',)
+[2026-09-06 15:17:00] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%חיים משה%',)
+[2026-09-06 15:20:31] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0547654321',)
+[2026-09-06 15:20:53] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0547654321',)
+[2026-09-06 16:20:47] SQL: 
+        SELECT client_name 
+        FROM v_customers_data 
+        WHERE client_name LIKE ?
+        LIMIT 1
+     | Params: ('%חיים משה%',)
+[2026-09-06 16:21:12] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0547654321',)
+[2026-09-06 16:21:29] SQL: 
+        SELECT id, client_name, service, date, time 
+         FROM scheduled_appointments 
+         WHERE is_deleted=0 AND client_phone = ?
+     | Params: ('0547654321',)
