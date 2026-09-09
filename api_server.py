@@ -198,6 +198,7 @@ def chat_endpoint(payload: ChatPayload):
     # קריאה ראשונה ל-Gemini
     response = client.models.generate_content(
         model="gemini-3.7-flash",
+
         contents=contents,
         config=config
     )
@@ -225,7 +226,7 @@ def chat_endpoint(payload: ChatPayload):
 
         # קריאה שנייה לניסוח תשובה אנושית סופית
         final_response = client.models.generate_content(
-            model="gemini-3.7-flash",
+            model="gemini-3.6-flash",
             contents=contents,
             config=config
         )
