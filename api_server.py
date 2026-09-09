@@ -197,7 +197,8 @@ def chat_endpoint(payload: ChatPayload):
 
     # קריאה ראשונה ל-Gemini
     response = client.models.generate_content(
-        model="gemini-3.6-flash",
+        model="gemini-3.7-flash",
+
         contents=contents,
         config=config
     )
